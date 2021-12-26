@@ -1,0 +1,4 @@
+﻿//Docker commands
+
+1. docker pull mongo
+2. docker run -d -p 27017:27017 --name shopping-mongo mongo

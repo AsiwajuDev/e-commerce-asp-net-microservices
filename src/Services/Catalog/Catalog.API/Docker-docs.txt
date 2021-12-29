@@ -60,3 +60,7 @@ db.Products.find({}).pretty()
 
 ---To restart an existing docker container
 Run: docker start "--first 4 digits of the container ID--"
+
+
+---To Start Docker-Compose
+Run: docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d

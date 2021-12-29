@@ -56,3 +56,7 @@ db.Products.remove({})
 show databases
 show collections
 db.Products.find({}).pretty()
+
+
+---To restart an existing docker container
+Run: docker start "--first 4 digits of the container ID--"
